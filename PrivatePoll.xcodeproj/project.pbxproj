@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDCA9F5A153DB4D4005B39E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCA9F59153DB4D4005B39E6 /* UIKit.framework */; };
+		FDCA9F5C153DB4D4005B39E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCA9F5B153DB4D4005B39E6 /* Foundation.framework */; };
+		FDCA9F5E153DB4D4005B39E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCA9F5D153DB4D4005B39E6 /* CoreGraphics.framework */; };
+		FDCA9F64153DB4D4005B39E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDCA9F62153DB4D4005B39E6 /* InfoPlist.strings */; };
+		FDCA9F66153DB4D4005B39E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCA9F65153DB4D4005B39E6 /* main.m */; };
+		FDCA9F6A153DB4D4005B39E6 /* PrivatePollAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCA9F69153DB4D4005B39E6 /* PrivatePollAppDelegate.m */; };
+		FDCA9F6D153DB4D4005B39E6 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDCA9F6B153DB4D4005B39E6 /* MainStoryboard_iPhone.storyboard */; };
+		FDCA9F70153DB4D4005B39E6 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDCA9F6E153DB4D4005B39E6 /* MainStoryboard_iPad.storyboard */; };
+		FDCA9F73153DB4D4005B39E6 /* PrivatePollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCA9F72153DB4D4005B39E6 /* PrivatePollViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FDCA9F55153DB4D4005B39E6 /* PrivatePoll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrivatePoll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDCA9F59153DB4D4005B39E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FDCA9F5B153DB4D4005B39E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FDCA9F5D153DB4D4005B39E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FDCA9F61153DB4D4005B39E6 /* PrivatePoll-Info.plist */ = {isa = PBXFileReference; path = "PrivatePoll-Info.plist"; sourceTree = "<group>"; };
+		FDCA9F63153DB4D4005B39E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDCA9F65153DB4D4005B39E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDCA9F67153DB4D4005B39E6 /* PrivatePoll-Prefix.pch */ = {isa = PBXFileReference; path = "PrivatePoll-Prefix.pch"; sourceTree = "<group>"; };
+		FDCA9F68153DB4D4005B39E6 /* PrivatePollAppDelegate.h */ = {isa = PBXFileReference; path = PrivatePollAppDelegate.h; sourceTree = "<group>"; };
+		FDCA9F69153DB4D4005B39E6 /* PrivatePollAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrivatePollAppDelegate.m; sourceTree = "<group>"; };
+		FDCA9F6C153DB4D4005B39E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		FDCA9F6F153DB4D4005B39E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		FDCA9F71153DB4D4005B39E6 /* PrivatePollViewController.h */ = {isa = PBXFileReference; path = PrivatePollViewController.h; sourceTree = "<group>"; };
+		FDCA9F72153DB4D4005B39E6 /* PrivatePollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrivatePollViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDCA9F52153DB4D4005B39E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCA9F5A153DB4D4005B39E6 /* UIKit.framework in Frameworks */,
+				FDCA9F5C153DB4D4005B39E6 /* Foundation.framework in Frameworks */,
+				FDCA9F5E153DB4D4005B39E6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDCA9F4A153DB4D4005B39E6 = {
+			isa = PBXGroup;
+			children = (
+				FDCA9F5F153DB4D4005B39E6 /* PrivatePoll */,
+				FDCA9F58153DB4D4005B39E6 /* Frameworks */,
+				FDCA9F56153DB4D4005B39E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDCA9F56153DB4D4005B39E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDCA9F55153DB4D4005B39E6 /* PrivatePoll.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDCA9F58153DB4D4005B39E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDCA9F59153DB4D4005B39E6 /* UIKit.framework */,
+				FDCA9F5B153DB4D4005B39E6 /* Foundation.framework */,
+				FDCA9F5D153DB4D4005B39E6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDCA9F5F153DB4D4005B39E6 /* PrivatePoll */ = {
+			isa = PBXGroup;
+			children = (
+				FDCA9F68153DB4D4005B39E6 /* PrivatePollAppDelegate.h */,
+				FDCA9F69153DB4D4005B39E6 /* PrivatePollAppDelegate.m */,
+				FDCA9F6B153DB4D4005B39E6 /* MainStoryboard_iPhone.storyboard */,
+				FDCA9F6E153DB4D4005B39E6 /* MainStoryboard_iPad.storyboard */,
+				FDCA9F71153DB4D4005B39E6 /* PrivatePollViewController.h */,
+				FDCA9F72153DB4D4005B39E6 /* PrivatePollViewController.m */,
+				FDCA9F60153DB4D4005B39E6 /* Supporting Files */,
+			);
+			path = PrivatePoll;
+			sourceTree = "<group>";
+		};
+		FDCA9F60153DB4D4005B39E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDCA9F61153DB4D4005B39E6 /* PrivatePoll-Info.plist */,
+				FDCA9F62153DB4D4005B39E6 /* InfoPlist.strings */,
+				FDCA9F65153DB4D4005B39E6 /* main.m */,
+				FDCA9F67153DB4D4005B39E6 /* PrivatePoll-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDCA9F54153DB4D4005B39E6 /* PrivatePoll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDCA9F76153DB4D4005B39E6 /* Build configuration list for PBXNativeTarget "PrivatePoll" */;
+			buildPhases = (
+				FDCA9F51153DB4D4005B39E6 /* Sources */,
+				FDCA9F52153DB4D4005B39E6 /* Frameworks */,
+				FDCA9F53153DB4D4005B39E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrivatePoll;
+			productName = PrivatePoll;
+			productReference = FDCA9F55153DB4D4005B39E6 /* PrivatePoll.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDCA9F4C153DB4D4005B39E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PrivatePoll;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = FDCA9F4F153DB4D4005B39E6 /* Build configuration list for PBXProject "PrivatePoll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FDCA9F4A153DB4D4005B39E6;
+			productRefGroup = FDCA9F56153DB4D4005B39E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDCA9F54153DB4D4005B39E6 /* PrivatePoll */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDCA9F53153DB4D4005B39E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCA9F64153DB4D4005B39E6 /* InfoPlist.strings in Resources */,
+				FDCA9F6D153DB4D4005B39E6 /* MainStoryboard_iPhone.storyboard in Resources */,
+				FDCA9F70153DB4D4005B39E6 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDCA9F51153DB4D4005B39E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCA9F66153DB4D4005B39E6 /* main.m in Sources */,
+				FDCA9F6A153DB4D4005B39E6 /* PrivatePollAppDelegate.m in Sources */,
+				FDCA9F73153DB4D4005B39E6 /* PrivatePollViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDCA9F62153DB4D4005B39E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDCA9F63153DB4D4005B39E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FDCA9F6B153DB4D4005B39E6 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDCA9F6C153DB4D4005B39E6 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		FDCA9F6E153DB4D4005B39E6 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDCA9F6F153DB4D4005B39E6 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDCA9F74153DB4D4005B39E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDCA9F75153DB4D4005B39E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDCA9F77153DB4D4005B39E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrivatePoll/PrivatePoll-Prefix.pch";
+				INFOPLIST_FILE = "PrivatePoll/PrivatePoll-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FDCA9F78153DB4D4005B39E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrivatePoll/PrivatePoll-Prefix.pch";
+				INFOPLIST_FILE = "PrivatePoll/PrivatePoll-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDCA9F4F153DB4D4005B39E6 /* Build configuration list for PBXProject "PrivatePoll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCA9F74153DB4D4005B39E6 /* Debug */,
+				FDCA9F75153DB4D4005B39E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDCA9F76153DB4D4005B39E6 /* Build configuration list for PBXNativeTarget "PrivatePoll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCA9F77153DB4D4005B39E6 /* Debug */,
+				FDCA9F78153DB4D4005B39E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDCA9F4C153DB4D4005B39E6 /* Project object */;
+}
