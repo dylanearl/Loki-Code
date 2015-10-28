@@ -1,14 +1,13 @@
 //
-//  PrivatePollAppDelegate.m
-//  PrivatePoll
+//  LokiAppDelegate.m
 //
-//  Created by Aolly Li on 18/04/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+//  Created by Aolly Li
+//  Modified by Gian Frez
+//  Copyright (c) 2012 UNSW. All rights reserved.
 
-#import "PrivatePollAppDelegate.h"
+#import "LokiAppDelegate.h"
 
-@implementation PrivatePollAppDelegate
+@implementation LokiAppDelegate
 
 @synthesize window = _window;
 
